@@ -1,0 +1,66 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vw;
+}
+.Hero-one {
+  height: 40vw;
+  width: 65vw;
+}
+.Hero-two {
+  height: 40vw;
+  width: 28vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3vw;
+}
+.Side-img {
+  height: 40vw;
+}
+.heading {
+  font-size: 1.2rem;
+  font-weight: 300;
+  position: relative;
+  opacity: 0.43;
+  top: 10px;
+  right: 120px;
+}
+/* Container holding the image and text overlay */
+.image-card {
+  position: relative;
+  width: 300px; /* Set the width of the card */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensures content doesn't overflow the border radius */
+  margin-top: 20px;
+}
+
+.image {
+  width: 100%;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 1.6), transparent);
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the date text */
+.date {
+  font-size: 14px;
+  opacity: 0.8; /* Slightly faded look for the date */
+  margin: 0;
+}
+
+/* Styling for the description text */
+.description {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0 0 0; /* Adds some space between date and description */
+}

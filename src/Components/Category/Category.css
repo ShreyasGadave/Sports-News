@@ -1,0 +1,13 @@
+.Category{
+    font-size: 1.7rem;
+    padding: 0 40px;
+    font-weight: 200;
+}
+.GameBox{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.img{
+    height: 40px;
+}
